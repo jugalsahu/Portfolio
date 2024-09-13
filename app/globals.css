@@ -7,3 +7,7 @@ html {
     scroll-behavior: smooth;
   }
 
+  #resume {
+    min-height: 100vh; /* Ensures section occupies full viewport height */
+  }
+

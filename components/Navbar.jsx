@@ -24,22 +24,26 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const sections = menus.map(menu => document.getElementById(menu.id));
-    
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
-        }
-      });
-    }, { threshold: 0.5 }); // Adjust threshold as needed
-    
-    sections.forEach(section => {
+    const sections = menus.map((menu) => document.getElementById(menu.id));
+  
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+            console.log('Active Section:', entry.target.id); // Debugging log
+          }
+        });
+      },
+      { threshold: 0.3 } // Adjusted threshold to 0.3
+    );
+  
+    sections.forEach((section) => {
       if (section) observer.observe(section);
     });
-
+  
     return () => {
-      sections.forEach(section => {
+      sections.forEach((section) => {
         if (section) observer.unobserve(section);
       });
     };
