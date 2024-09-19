@@ -43,7 +43,7 @@ const Resume = () => {
                             <div className="flex items-center gap-4">
                                 <MapPin className="text-blue-900" />
                                 <p className="text-blue-700 font-semibold">
-                                    AT-Borasingi, Po-Barida, Ganjam, Odisha, PIN-761104
+                                Ameerpet,Hyderabad,Telengana PIN-500016
                                 </p>
                             </div>
                         </div>

@@ -102,7 +102,7 @@ const Contacts = () => {
           <div>
             <h1 className='text-blue-950 font-bold text-lg md:text-xl'>Address</h1>
             <h1 className='text-blue-950 font-semibold text-base md:text-lg'>
-              AT-Borasingi, Po-Barida, Ganjam, Odisha, PIN-761104
+              Ameerpet,Hyderabad,Telengana PIN-500016
             </h1>
           </div>
         </div>

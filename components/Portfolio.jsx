@@ -32,9 +32,9 @@ const Portfolio = () => { // Use PascalCase for component naming
 
             <div className="absolute w-full h-200 bottom-0 left-0 bg-gradient-to-r from-indigo-600 to-indigo-950  text-white p-4 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-2">About This Website</h3>
+                <h3 className="text-xl font-semibold mb-2">https://www.igp.com/</h3>
                 <p className="text-sm">
-                  This website showcases the latest projects and work portfolio of our team. Hover to explore more!
+                An online platform for gifting and personalized items. Offers a wide range of gifts for various occasions, along with customization options.
                 </p>
               </div>
             </div>
@@ -50,9 +50,9 @@ const Portfolio = () => { // Use PascalCase for component naming
 
             <div className="absolute w-full h-200 bottom-0 left-0 bg-gradient-to-r from-indigo-600 to-indigo-950  text-white p-4 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-2">About This Website</h3>
+                <h3 className="text-xl font-semibold mb-2">https://www.showmaqers.com/</h3>
                 <p className="text-sm">
-                  This website showcases the latest projects and work portfolio of our team. Hover to explore more!
+                A digital marketing and creative agency providing solutions for branding, SEO, content creation, and web development.
                 </p>
               </div>
             </div>
@@ -68,9 +68,9 @@ const Portfolio = () => { // Use PascalCase for component naming
 
             <div className="absolute w-full h-200 bottom-0 left-0 bg-gradient-to-r from-indigo-600 to-indigo-950  text-white p-4 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-2">About This Website</h3>
+                <h3 className="text-xl font-semibold mb-2">https://www.bangalorehotels.org/</h3>
                 <p className="text-sm">
-                  This website showcases the latest projects and work portfolio of our team. Hover to explore more!
+                A hotel booking website focused on Bangalore, India. Provides a comprehensive list of hotels, reviews, and booking options.
                 </p>
               </div>
             </div>
@@ -86,9 +86,9 @@ const Portfolio = () => { // Use PascalCase for component naming
 
             <div className="absolute w-full h-200 bottom-0 left-0 bg-gradient-to-r from-indigo-600 to-indigo-950  text-white p-4 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-2">About This Website</h3>
+                <h3 className="text-xl font-semibold mb-2">https://www.zieeinterior.com/</h3>
                 <p className="text-sm">
-                  This website showcases the latest projects and work portfolio of our team. Hover to explore more!
+                An interior design firm offering services for both residential and commercial spaces. Specializes in modern and creative interior solutions.
                 </p>
               </div>
             </div>
@@ -104,9 +104,9 @@ const Portfolio = () => { // Use PascalCase for component naming
 
             <div className="absolute w-full h-200 bottom-0 left-0 bg-gradient-to-r from-indigo-600 to-indigo-950  text-white p-4 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-2">About This Website</h3>
+                <h3 className="text-xl font-semibold mb-2">https://www.guarented.com/</h3>
                 <p className="text-sm">
-                  This website showcases the latest projects and work portfolio of our team. Hover to explore more!
+                A rental platform for furniture, appliances, and electronics. Offers both renting and buying options with maintenance and relocation services.
                 </p>
               </div>
             </div>
