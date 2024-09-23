@@ -21,6 +21,8 @@ const Resume = () => {
                         <p className='text-sm sm:text-base lg:text-lg text-slate-600 text-justify'>
                             Detail-oriented and driven by a passion for technology, consistently seeking to enhance skills through ongoing education and hands-on experience. Excels in fast-paced environments, adapting to new challenges and technologies with ease. Recognized for excellent communication skills, enabling effective collaboration with cross-functional teams, stakeholders, and clients to deliver impactful, user-focused digital solutions.
                         </p>
+                        
+                        
                     </div>
                 </div>
 
@@ -32,7 +34,7 @@ const Resume = () => {
                             {/* Phone Contact */}
                             <div className="flex items-center gap-4">
                                 <PhoneCall className="text-blue-900" />
-                                <p className="text-blue-700 font-semibold">+91 7873841779</p>
+                                <p className="text-blue-700 font-semibold">+91 9558298810</p>
                             </div>
                             {/* Email Contact */}
                             <div className="flex items-center gap-4">
@@ -50,7 +52,7 @@ const Resume = () => {
 
                         <div className="w-full mt-10 overflow-hidden">
                             <h1 className="text-xl font-extrabold bg-gradient-to-r from-indigo-600 to-indigo-950 bg-clip-text text-transparent text-center">SKILLS</h1>
-                            <div className="grid grid-cols-2 sm:grid-cols-3  gap-4 mt-6">
+                            <div className="grid grid-cols-2 sm:grid-cols-2  gap-4 mt-6">
                                 {['NextJs', 'NodeJs', 'ExpressJs', 'React', 'Mongo DB', 'JavaScript', 'AWS', 'Docker', 'Git', 'Jira', 'Redis', 'Tailwind Css'].map((skill, index) => (
                                     <div key={index} className="flex items-center justify-center border border-blue-700 rounded-full py-2 px-4 text-sm font-semibold text-blue-800 bg-white shadow-md hover:shadow-lg">
                                         {skill}
