@@ -12,21 +12,23 @@ export const metadata = {
 }
 
 const Homepage = () => {
-  
+
   return (
     <div>
+      <div>
+        <Skill />
+      </div>
+      <div>
+        <Portfolio />
+      </div>
+
       <div className='px-[8%] py-16'>
         <Hero />
       </div>
       <div>
         <Experience />
       </div>
-      <div>
-        <Portfolio />
-      </div>
-      <div>
-        <Skill />
-      </div>
+
       <div>
         <Resume />
       </div>
